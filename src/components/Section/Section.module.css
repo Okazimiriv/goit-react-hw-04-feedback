@@ -1,0 +1,26 @@
+.Section {
+  font-size: 24px;
+  font-weight: bold;
+  color: teal;
+  line-height: 1.2;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 480px) {
+  .Section {
+    font-size: 28px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .Section {
+    font-size: 36px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .Section {
+    font-size: 42px;
+  }
+}

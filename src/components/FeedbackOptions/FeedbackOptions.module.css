@@ -1,0 +1,23 @@
+.FeedbackOptions > button:not(:last-child) {
+  margin-right: 15px;
+}
+
+.Button {
+  min-width: 80px;
+  padding: 5px;
+  color: white;
+  background: lightsalmon;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+
+  transform: scale(1);
+  transition: transform 250ms;
+}
+
+.Button:hover {
+  background-color: cadetblue;
+  transform: scale(1.1);
+}

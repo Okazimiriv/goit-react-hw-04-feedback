@@ -1,0 +1,25 @@
+.Statistics {
+  color: teal;
+  font-weight: bold;
+}
+
+.good {
+  color: Orange;
+}
+
+.neutral {
+  color: green;
+}
+
+.bad {
+  color: lightslategray;
+}
+
+.total {
+  margin-top: 40px;
+  color: lightcoral;
+}
+
+.feedback {
+  color: lightseagreen;
+}
