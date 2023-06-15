@@ -17,7 +17,7 @@ const Statistic = ({
       <p className={styles.neutral}>Neutral: {neutral}</p>
       <p className={styles.bad}>Bad: {bad}</p>
       <p className={styles.total}>Total: {total}</p>
-      <p className={styles.Statistics}>
+      <p className={styles.feedback}>
         Positive feedback: {positivePercentage}%
       </p>
     </div>

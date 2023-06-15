@@ -1,19 +1,22 @@
 .Statistics {
   color: teal;
   font-weight: bold;
+  font-size: 20px;
 }
 
-.good {
-  color: Orange;
+.good,
+.neutral,
+.bad {
+  color: teal;
 }
 
-.neutral {
+/* .neutral {
   color: green;
 }
 
 .bad {
   color: lightslategray;
-}
+} */
 
 .total {
   margin-top: 40px;
@@ -21,5 +24,5 @@
 }
 
 .feedback {
-  color: lightseagreen;
+  color: rgba(185, 57, 104, 0.934);
 }
