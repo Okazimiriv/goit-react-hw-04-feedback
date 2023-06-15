@@ -14,6 +14,7 @@ export default function App() {
 
   const countPositiveFeedbackPercentage = () =>
     Math.round((good * 100) / countTotalFeedback());
+  
   const onFeedbackClick = event => {
     console.log(event);
 
